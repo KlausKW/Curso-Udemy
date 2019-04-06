@@ -1,0 +1,57 @@
+@import url(sanitize.css);
+
+h1{
+    font-size: 52px;
+    margin: 0;
+}
+
+.content{
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    margin: 10px auto;
+    border: 1px solid rgb(179, 179, 178);
+    padding: 30px;
+
+}
+
+input {
+    border: 0;
+    border-bottom: 1px solid #d1d1d1;
+    width: 80%;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+button {
+    width: 50%;
+    background: #2036f3;
+    color: #fff;
+    border: 0;
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    box-shadow: 7px 7px 8px rgba(0, 0, 0, .5);
+    }
+
+.control{
+    margin-bottom: 1em;
+}
+
+.contBut{
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-bottom: .5em;
+}
+
+.requerido {
+    color: #f33;
+    font-size: .8em;
+    background: #fee;
+    padding: 3px;
+    font-weight: bold;
+    margin-right: .3em;
+}
